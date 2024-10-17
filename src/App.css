@@ -1,0 +1,74 @@
+body {
+  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #ecf0f1; /* Light text color */
+}
+
+.container {
+  background-color: #ffffff;
+  border-radius: 5px; /* Slightly rounded corners */
+  box-shadow: none; /* No shadow for a flat design */
+  padding: 30px;
+  max-width: 600px;
+  margin: 50px auto;
+  border: 1px solid #ccc; /* Light border for definition */
+}
+
+h4 {
+  font-size: 2rem; /* Larger heading size */
+  font-weight: 500; /* Lighter weight for a flat look */
+  margin-bottom: 20px;
+  color: #000000; /* Black for strong contrast */
+  text-shadow: none; /* No shadow for flat design */
+}
+
+.textField {
+  margin-right: 10px;
+}
+
+.button {
+  margin-top: 20px;
+  background-color: #3f51b5; /* Flat color */
+  color: white;
+  font-weight: bold;
+  border: none; /* No border */
+  padding: 10px 20px; /* Added padding for a button-like feel */
+  cursor: pointer;
+  transition: background-color 0.2s; /* Simple hover transition */
+}
+
+.button:hover {
+  background-color: #303f9f; /* Slightly darker color on hover */
+}
+
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 12px;
+  background-color: #f1f3f5;
+  border-radius: 5px; /* Slight rounding for list items */
+  border: 1px solid #ddd; /* Light border */
+}
+
+.listItemText {
+  flex: 1;
+  font-size: 1rem;
+  color: #333; /* Darker color for better visibility */
+}
+
+.totalPrice {
+  font-weight: bold;
+  font-size: 1.5rem; /* Slightly larger total price */
+  margin-top: 20px;
+  color: #2ecc71; /* Flat green color */
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
+
+.snackbar {
+  background-color: #388e3c;
+}
